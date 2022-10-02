@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Navbar-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>School website</title>
+</head>
+
+<body>
+
+    <header class="text-center social-icon text-lg-start bg-secondary text-light">
+        <div class="container">
+            <section class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom">
+                <div class="me-4 d-lg-block">
+                    <span><i class="fa fa-phone"></i> +99999999999</span>
+                    <span><i class="fa fa-calendar"></i> Mon-Fri: 10:00-04</span>
+                </div>
+
+                <div>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fa fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fa fa-google"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">MyCollege</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#main-about">About Us</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#main-courses">Courses</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#main-gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#main-contact">Contact Us</a>
+                    </li>
+
+                </ul>
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- corousel-->
+    <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="h-100 w-100"
+                    src="https://cdn.pixabay.com/photo/2017/07/26/06/06/university-2540603_960_720.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-block">
+                    <h2>Vivekanand Education Society's</h2>
+                    <p>Institute of Technology</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="h-100 w-100"
+                    src="https://cdn.pixabay.com/photo/2013/04/19/01/15/university-105709_960_720.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-block">
+                    <h2>Vivekanand Education Society's</h2>
+                    <p>Institute of Technology.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="h-100 w-100"
+                    src="https://cdn.pixabay.com/photo/2020/01/27/11/17/education-4796952_960_720.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-block">
+                    <h2>Vivekanand Education Society's</h2>
+                    <p>Institute of Technology</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--About us-->
+    <main id="main-about">
+        <section class="about mt-5" id="about">
+            <div class="container-fluid">
+                <h2 class="h1-responsive fw-bold text-center my-2">
+                    About
+                </h2>
+                <p class="text-center w-responsive mx-auto mb-1">Do you have any questions? Please do not hesitate to
+                    contact us directly. Our team will come back to you within
+                    a matter of hours to help you.
+                </p>
+
+                <div class="row  pt-5 pb-5">
+                    <div class="col-lg-5 align-items-stretch">
+                        <img class="img-fluid mb-4"
+                            src="https://images.shiksha.com/mediadata/images/1553752427phpvP6G9K.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="h2-responsive fw-bold text-start">
+                            Our College
+                        </h2>
+
+                        <p class="lh-1 pt-2 pb-2">
+                            Vivekanand Education Society's Institute of Technology, also known as VESIT was established
+                            in the
+                            year 1984 and is located in Mumbai, Maharashtra. It is affiliated with the University of
+                            Mumbai and
+                            approved by the All India Council for Technical Education (AICTE). It offers various
+                            specialisations
+                            in Engineering courses at UG and PG levels and also offers MCA programme in Computer
+                            Applications.
+                            All of its UG programmes are accredited by the National Board of Accreditation (NBA).
+                        </p>
+                        <p class="lh-1">
+                            The college was ranked in the band of 26 - 50 in ARIIA under the Self-Finance Private
+                            Institutions
+                            category. It was also ranked 1 consecutively 3 times in Maharashtra State in Education World
+                            Private
+                            Engineering Institutes. The college was also awarded as Asia’s Fastest Growing Institutes by
+                            WCRC in
+                            Singapore. It also received awards in Platinum Category in AICTE-CII Industry-linked
+                            Technical
+                            Institute Survey.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--courses-->
+    <main id="main-courses">
+        <div class="container">
+            <h2 class="h1-responsive fw-bold text-center my-2">
+                Courses
+            </h2>
+            <p class="text-center w-responsive mx-auto mb-1">Do you have any questions? Please do not hesitate to
+                contact us directly. Our team will come back to you within
+                a matter of hours to help you.
+            </p>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card box">
+                        <img src="https://thumbs.dreamstime.com/b/sql-programming-languages-concept-hand-makes-inscription-tablet-screen-using-stylus-close-up-small-depth-field-227347499.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SQL</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Read</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card box">
+                        <img src="https://thumbs.dreamstime.com/b/java-programming-languages-concept-hand-makes-inscription-pjava-hp-tablet-screen-using-stylus-close-up-small-depth-232269890.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">JAVA</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Read</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card box">
+                        <img src="https://thumbs.dreamstime.com/b/php-programming-languages-concept-hand-makes-inscription-tablet-screen-using-stylus-close-up-small-depth-field-231243025.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">PHP</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Read</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--gallery-->
+    <main id="main-gallery">
+        <div class="container">
+            <h2 class="h1-responsive fw-bold text-center pt-2 my-2">
+                Gallery
+            </h2>
+            <p class="text-center w-responsive mx-auto mb-1">Do you have any questions? Please do not hesitate to
+                contact us directly. Our team will come back to you within
+                a matter of hours to help you.
+            </p>
+            <div class="row pt-4">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <img src="https://cache.careers360.mobi/media/colleges/reviews/2020/3/23/95842/IMG-20191119-WA0003.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                    <img src="https://globaleducollege.com/images/college/featured/3137/VIVEKANAND-EDUCATION-SOCIETY-INSTITUTE-OF-TECHNOLOGY---[VESIT],-MUMBAI.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="https://cache.careers360.mobi/media/colleges/reviews/2020/6/9/125931/LRM_EXPORT_20200203_202231.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="https://preview.redd.it/0i6fg8op8fe81.jpg?width=1024&format=pjpg&auto=webp&s=321e2e05c6caab8e8f8cab07cccbae6c983ea9c8"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                    <img src="https://qph.cf2.quoracdn.net/main-qimg-be2f035692adbe264a8ba45a1b0d9ff2-lq"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="" />
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--contact us-->
+    <main id="main-contact">
+        <div class="container ">
+            <h2 class="h1-responsive font-weight-bold text-center pt-2 my-4">Contact us</h2>
+            <p class="text-center w-responsive mx-auto mb-1">Do you have any questions? Please do not hesitate to
+                contact us directly. Our team will come back to you within
+                a matter of hours to help you.</p>
+
+            <div class="row">
+                <div class="col-md-6 mb-md-0 mb-5 pt-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="name" class="">Your name</label>
+                                    <input type="text" id="name" name="name" class="form-control">
+
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="email" class="">Your email</label>
+                                    <input type="text" id="email" name="email" class="form-control">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <label for="subject" class="">Subject</label>
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+
+                                    <label for="message">Your message</label>
+                                    <textarea type="text" id="message" name="message" rows="4"
+                                        class="form-control md-textarea"></textarea>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary mt-3"
+                            onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+                <div class="col-md-6 pt-5 pb-5">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1885.708800201566!2d72.88821097353033!3d19.045368449248162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8add9569a29%3A0xb7ad04bf9a389df7!2sVivekanand%20Education%20Society&#39;s%20Institute%20Of%20Technology%20(VESIT)!5e0!3m2!1sen!2sin!4v1664599926227!5m2!1sen!2sin"
+                        width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <main>
+    </main>
+
+    <main>
+        <footer class="text-center text-lg-start ">
+            <section class="border bg-info text-light text-light">
+                <div class="container text-center text-md-start mt-5 ">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3 text-secondary"></i>VESIT
+
+                            </h6>
+                            <p>
+                                Here you can use rows and columns to organize your footer content. Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Useful links
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Pricing</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Settings</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Orders</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Help</a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                            <p><i class="fa fa-home me-3 text-secondary"></i> Chembur,Maharashtra</p>
+                            <p>
+                                <i class="fa fa-envelope me-3 text-secondary"></i>
+                                info@example.com
+                            </p>
+                            <p><i class="fa fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+                            <p><i class="fa fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="text-center p-4 bg-secondary" style="background-color: rgba(0, 0, 0, 0.025);">
+                © 2021 Copyright:
+                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+        </footer>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
